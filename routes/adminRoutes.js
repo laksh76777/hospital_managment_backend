@@ -15,6 +15,7 @@ import {
 import {
   getAdminAppointments,
   getAdminStats,
+  getAdminPatients,
 } from '../controllers/appointmentController.js';
 
 const router = express.Router();
@@ -44,5 +45,8 @@ router.get('/appointments', getAdminAppointments);
 
 // GET /api/admin/stats - Hospital summary statistics (total patients, doctors, appointments)
 router.get('/stats', getAdminStats);
+
+// GET /api/admin/patients - Registered patients directory (Secured by 'laksh97' passkey)
+router.get('/patients', getAdminPatients);
 
 export default router;
