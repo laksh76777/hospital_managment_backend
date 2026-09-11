@@ -1,4 +1,4 @@
-import { admin, firebaseAdminInitialized } from '../config/firebaseAdmin.js';
+git statusimport { admin, firebaseAdminInitialized } from '../config/firebaseAdmin.js';
 import User from '../models/User.js';
 import mongoose from 'mongoose';
 
