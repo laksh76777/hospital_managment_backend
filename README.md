@@ -186,12 +186,4 @@ The server starts on `http://localhost:5000`.
 
 ---
 
-## ⚙️ Environment Configuration (`.env`)
 
-```env
-PORT=5000
-MONGODB_URI=mongodb+srv://laksh2003suthar_db_user:yum9cbs2M6M6Y8OU@cluster0.rnwmex5.mongodb.net/healthdesk?retryWrites=true&w=majority
-JWT_SECRET=sanjeevani_hospital_jwt_super_secret_key_2026
-CLIENT_URL=http://localhost:3000
-NODE_ENV=development
-```
