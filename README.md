@@ -3,8 +3,8 @@
 Backend API services for **Sanjeevani Super-Speciality Hospital & Research Institute**, providing authentication, physician roster management, atomic slot reservation, and administrative confirmation workflows.
 
 frontend repo : https://github.com/laksh76777/hospital_managment_frontend.git 
-
 backend repo : https://github.com/laksh76777/hospital_managment_backend.git
+
 ---
 
 ## 🛠️ Tech Stack & Dependencies
